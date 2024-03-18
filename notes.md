@@ -1,2 +1,2 @@
-javascript best practices
+**Javascript Best Practices**
 https://github.com/airbnb/javascript
