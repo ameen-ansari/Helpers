@@ -4,12 +4,19 @@ https://github.com/airbnb/javascript
 ```
 
 ## Broken Emoji Remover
+Use this in case of objects string `Recommended`
 ```
 function removeBrokenEmoji(str) {
   return str.replace(
     /[\uD800-\uDBFF](?![\uDC00-\uDFFF])|(?<![\uD800-\uDBFF])[\uDC00-\uDFFF]|[\uFFFD]/g,
     '',
   );
+}
+```
+Use this in case of input value change mean while when you handle a string
+```
+function removeSpecialCharacter(inputString) {
+  return inputString.split('�').join('');
 }
 ```
 
@@ -30,13 +37,6 @@ function strLengthCounter(str: string) {
     }
   }
   return count;
-}
-```
-
-## Remove Special Char From a Str
-```
-function removeSpecialCharacter(inputString) {
-  return inputString.split('�').join('');
 }
 ```
 
