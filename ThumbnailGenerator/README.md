@@ -1,5 +1,6 @@
-## Create Thumnail from Video
+## Create Thumbnail from Video
 
+`Create fileName.ts and paste`
 ```
 export enum VideoToFramesMethod {
     fps,
@@ -91,4 +92,4 @@ const fileUrl = URL.createObjectURL(SELECTED_FILE);
 const frames = await VideoToFrames.getFrames(fileUrl, 10, VideoToFramesMethod.totalFrames);
 ```
 
-`console.log(frames) output = [thumnails x 10]`
+`console.log(frames) output = [thumnail x 10]`
