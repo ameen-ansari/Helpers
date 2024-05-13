@@ -3,6 +3,11 @@
 https://github.com/airbnb/javascript
 ```
 
+## Google JavaScript Style Guide
+```
+https://google.github.io/styleguide/jsguide.html#guide-notes
+```
+
 ## Broken Emoji Remover
 Use this in case of objects string `Recommended`
 ```
